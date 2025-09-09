@@ -16,7 +16,7 @@ def wrangle(filepath):
 
     # Data wrangling
     # copy dataframe
-    data = df.copy()
+    data = df.copy().drop(columns=["Unnamed: 0"])
     # Fill receipt number with 'Unknown'
     data["Receipt Number"] = data["Receipt Number"].fillna("Unknown")
     
