@@ -8,7 +8,7 @@ def wrangle(filepath):
         df = pd.read_csv(file)
         
     # display first few rows of the dataframe
-    print(df.head())
+    # print(df.head())
     # display the shape of the dataframe
     print(df.shape)
     # display the data types of each column
@@ -19,6 +19,9 @@ def wrangle(filepath):
     data = df.copy().drop(columns=["Unnamed: 0"])
     # Fill receipt number with 'Unknown'
     data["Receipt Number"] = data["Receipt Number"].fillna("Unknown")
+    
+    # Change datatype of Receipt Date
+    data["Receipt Date"] = pd.to_datetime(data["Receipt Date"], dayfirst=True, errors="coerce")
     
     # Flag where Country of Supply matches Origin
     data["self_supply"] = data["Country  of Origin"] == data["Country  of Supply"]
@@ -90,8 +93,10 @@ def wrangle(filepath):
     # change data type of Importer
     data["Importer"] = data["Importer"].astype(str)
     # Change for HS Code
-    data["HS Code"] = data["Importer"].astype(str)
+    data["HS Code"] = data["HS Code"].astype(str)
     # Change Mass (KG) to integers
     data["Mass(KG)"] = data["Mass(KG)"].str.replace(",", "").astype(int)
     # Change Nbr Of Containers to integers
     data["Nbr Of Containers"] = data["Nbr Of Containers"].astype(int)
+    
+    return data
