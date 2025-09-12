@@ -65,18 +65,6 @@ To prepare the dataset for analysis, several cleaning and transformation steps w
 - HS CODE 28721000 has the highest trade inflow from 2021 to 2024, which is about 150,196,000,000 Naira.
 - HS CODE 28719000 brought the most revenue through tax, with a value of over 20 billion from 2021 to 2024.
 - Importer with an ID of 69009 brought the most revenue from 2021 to 2024.
-**Monthly CIF Value**
-- In the year 2024, there was a spike in the CIF Value in May, which now declined to a very low value in October compared to other years.
-  
-**Monthly Tax**
-- There was a spike in Tax in May in 2024, which declined till October. This is actually the highest peak in the entire chart, exceeding even the Dec 2022 spike.
-- In 2022, there was a minor spike in March and May.
-- In 2022, taxes received by the government Plateud from August to September declined in October.
-- In 2022, there was a Major spike in Tax from November to December, compared to other years.
-- In 2023, the tax levy had the lowest decline in December compared to other years.
-  
-**Monthly Mass of goods supplied**
-- In 2023, the weight of goods supplied had a sharp increase from April to May and a sharp increase from May to June.
 ## Import Volume and Value
 ## Taxation and Revenue
 ## Logistics and Shipment
@@ -127,9 +115,23 @@ In conclusion, in most cases, importer 11327 imported goods that were more than 
 * The same was also done for the countries of supply and countries like UAE, India, Swaziland, Switzerland didn't follow that policy, especially the British Virgin Islands, which seemed to completely follow a different trajectory (policy) different from all others.
 
 ## Trend Analysis showing Seasonality or Periodic Trends in Trade Volume
+**Monthly CIF Value**
+- In the year 2024, there was a spike in the CIF Value in May, which now declined to a very low value in October compared to other years.
+  
+**Monthly Tax**
+- There was a spike in Tax in May 2024, which declined till October. This is actually the highest peak in the entire chart, exceeding even the Dec 2022 spike.
+- In 2022, there was a minor spike in March and May.
+- In 2022, taxes received by the government Plateud from August to September declined in October.
+- In 2022, there was a Major spike in Tax from November to December, compared to other years.
+- In 2023, the tax levy had the lowest decline in December compared to other years.
+  
+**Monthly Mass of goods supplied**
+- In 2023, the weight of goods supplied had a sharp increase from April to May and a sharp increase from May to June.
+
 ## Analytical Skills
 ## Recommendations
 
 ## Conclusion
+
 
 
