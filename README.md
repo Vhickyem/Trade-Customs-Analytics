@@ -58,11 +58,28 @@ To prepare the dataset for analysis, several cleaning and transformation steps w
     * Importer, HS Code were converted to string type for consistency.
 
 **Outliers**
-    * **Mass(KG)**: Several outlier values were observed (including zero or abnormally high weights). However, in accordance with guidance, no records were dropped or adjusted, since extreme values may highlight inefficiencies or unusual cases worth analyzing.  
+    * **Mass(KG)**: Several outlier values were observed (including zero or abnormally high weights). However, in accordance with guidance, no records were dropped or adjusted, since extreme values may highlight inefficiencies or unusual cases worth analyzing. 
+    
 ## Descriptive Analysis
 ## Import Volume and Value
 ## Taxation and Revenue
 ## Logistics and Shipment
+- The total amount of Shipments from 2021 to 2024 is 77789.
+- There is an extreme outlier in the major average number of containers from 2021 to 2024. Importer 59991 had an average container number of over 100,000 compared to other top 20 importers that fell within the range of 13 to 25.
+- The most commonly used container size from 2021 to 2024 was not identified, but the next most commonly used container size is 45G1. It had a total usage of about 20,000.
+- From 2021 to 2024, China exported the highest weight of goods.
+- Container sizes like '2200', '4300', 'HNCV', 'N/A', 'Unknown', '0', '49P0', 'NCVH', '20VH', '2040', '10DV', and 'L5G1' had unclear payload. They were mapped as 'None' because of this.
+
+According to ISO (International Organization for Standardization):
+- Container 45G0 has a maximum payload of 29750 Kg. Importers like 10993, 11327, 11327, 11373, 12268, 12948, and 13589 imported goods that exceed the maximum payload.
+- Container 20DV has a maximum payload of 28200 Kg. Importers like 10799, 11327, 11454, 1177, and 12708 imported goods that exceed the maximum payload.
+- Container 40GP has a maximum payload of 28200 Kg. Importers like 11327, 12268, and 12302 imported goods that exceeded the maximum payload.
+- Container 22G1 has a maximum payload of 21400 Kg. Importers like 10228, 11327, 12652, 1282, 14758, and 15551 imported goods that exceeded the maximum payload
+- Container 40DV has a maximum payload of 28200 Kg. Importers like 10337, 10600, 10799, 117,7, and 12268 imported goods that exceeded the maximum payload. 12268 had an extreme average mass of 120,000 Kg.
+- Container 45G1 has a maximum payload of 29750 Kg. Importers like 10059, 11327, and 11373 imported goods that exceeded the maximum payload.
+- Container size 40HC has a payload of 28200 Kg. Only importer 11327 imported goods with an average mass higher than the maximum payload. Its goods weighed over 70000 Kg.
+- Container size 22G0 with a maximum payload of 21400 Kg. 10600, 10993, 11327, 12645, 12708, 13106, 13181, 13914, 17060, and 17046 imported goods that exceeded the maximum payload.
+In conclusion, in most cases, importer 11327 imported goods that were more than the maximum payload of the container sizes.
 ## Compliance and Processing
 * Some offices like HM CARGO and NT registred more share of the total registered imports
 * Others like UA PORT, NT_2, LC, RP_1, DK_COLLECTION, and RW PORT had less than 1% of the total registered imports
@@ -96,4 +113,5 @@ To prepare the dataset for analysis, several cleaning and transformation steps w
 ## Trend Analysis showing Seasonality or Periodic Trends in Trade Volume
 ## Analytical Skills
 ## Recommendations
+
 ## Conclusion
