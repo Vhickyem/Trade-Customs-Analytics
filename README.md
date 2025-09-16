@@ -58,8 +58,13 @@ To prepare the dataset for analysis, several cleaning and transformation steps w
     * Importer, HS Code were converted to string type for consistency.
 
 **Outliers**
-    * **Mass(KG)**: Several outlier values were observed (including zero or abnormally high weights). However, in accordance with guidance, no records were dropped or adjusted, since extreme values may highlight inefficiencies or unusual cases worth analyzing.  
+    * **Mass(KG)**: Several outlier values were observed (including zero or abnormally high weights). However, in accordance with guidance, no records were dropped or adjusted, since extreme values may highlight inefficiencies or unusual cases worth analyzing. 
+    
 ## Descriptive Analysis
+- HS Code 17620000 dominates by having almost 4,000 shipments, clearly the most frequent. This means it’s either a high-demand commodity or subject to frequent imports.
+- HS CODE 28721000 has the highest trade inflow from 2021 to 2024, which is about 150,196,000,000 Naira.
+- HS CODE 28719000 brought the most revenue through tax, with a value of over 20 billion from 2021 to 2024.
+- Importer with an ID of 69009 brought the most revenue from 2021 to 2024.
 ## Import Volume and Value
 - Total Import Value (FOB & CIF): Imports amount to trillions of naira, with CIF values consistently higher than FOB, reflecting significant freight and insurance costs paid abroad.
 
@@ -81,6 +86,22 @@ To prepare the dataset for analysis, several cleaning and transformation steps w
 - Top Tax-Contributing Importers: As with volume, a small set of large importers account for a disproportionate share of tax revenue, which creates both an opportunity for targeted compliance and a risk of revenue concentration.
 
 ## Logistics and Shipment
+- The total amount of Shipments from 2021 to 2024 is 77789.
+- There is an extreme outlier in the major average number of containers from 2021 to 2024. Importer 59991 had an average container number of over 100,000 compared to other top 20 importers that fell within the range of 13 to 25.
+- The most commonly used container size from 2021 to 2024 was not identified, but the next most commonly used container size is 45G1. It had a total usage of about 20,000.
+- From 2021 to 2024, China exported the highest weight of goods.
+- Container sizes like '2200', '4300', 'HNCV', 'N/A', 'Unknown', '0', '49P0', 'NCVH', '20VH', '2040', '10DV', and 'L5G1' had unclear payload. They were mapped as 'None' because of this.
+
+According to ISO (International Organization for Standardization):
+- Container 45G0 has a maximum payload of 29750 Kg. Importers like 10993, 11327, 11327, 11373, 12268, 12948, and 13589 imported goods that exceed the maximum payload.
+- Container 20DV has a maximum payload of 28200 Kg. Importers like 10799, 11327, 11454, 1177, and 12708 imported goods that exceed the maximum payload.
+- Container 40GP has a maximum payload of 28200 Kg. Importers like 11327, 12268, and 12302 imported goods that exceeded the maximum payload.
+- Container 22G1 has a maximum payload of 21400 Kg. Importers like 10228, 11327, 12652, 1282, 14758, and 15551 imported goods that exceeded the maximum payload
+- Container 40DV has a maximum payload of 28200 Kg. Importers like 10337, 10600, 10799, 117,7, and 12268 imported goods that exceeded the maximum payload. 12268 had an extreme average mass of 120,000 Kg.
+- Container 45G1 has a maximum payload of 29750 Kg. Importers like 10059, 11327, and 11373 imported goods that exceeded the maximum payload.
+- Container size 40HC has a payload of 28200 Kg. Only importer 11327 imported goods with an average mass higher than the maximum payload. Its goods weighed over 70000 Kg.
+- Container size 22G0 with a maximum payload of 21400 Kg. 10600, 10993, 11327, 12645, 12708, 13106, 13181, 13914, 17060, and 17046 imported goods that exceeded the maximum payload.
+In conclusion, in most cases, importer 11327 imported goods that were more than the maximum payload of the container sizes.
 ## Compliance and Processing
 * Some offices like HM CARGO and NT registred more share of the total registered imports
 * Others like UA PORT, NT_2, LC, RP_1, DK_COLLECTION, and RW PORT had less than 1% of the total registered imports
@@ -112,6 +133,23 @@ To prepare the dataset for analysis, several cleaning and transformation steps w
 * The same was also done for the countries of supply and countries like UAE, India, Swaziland, Switzerland didn't follow that policy, especially the British Virgin Islands, which seemed to completely follow a different trajectory (policy) different from all others.
 
 ## Trend Analysis showing Seasonality or Periodic Trends in Trade Volume
+**Monthly CIF Value**
+- In the year 2024, there was a spike in the CIF Value in May, which now declined to a very low value in October compared to other years.
+  
+**Monthly Tax**
+- There was a spike in Tax in May 2024, which declined till October. This is actually the highest peak in the entire chart, exceeding even the Dec 2022 spike.
+- In 2022, there was a minor spike in March and May.
+- In 2022, taxes received by the government Plateud from August to September declined in October.
+- In 2022, there was a Major spike in Tax from November to December, compared to other years.
+- In 2023, the tax levy had the lowest decline in December compared to other years.
+  
+**Monthly Mass of goods supplied**
+- In 2023, the weight of goods supplied had a sharp increase from April to May and a sharp increase from May to June.
+
 ## Analytical Skills
 ## Recommendations
+
 ## Conclusion
+
+
+
