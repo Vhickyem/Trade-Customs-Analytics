@@ -61,7 +61,25 @@ To prepare the dataset for analysis, several cleaning and transformation steps w
     * **Mass(KG)**: Several outlier values were observed (including zero or abnormally high weights). However, in accordance with guidance, no records were dropped or adjusted, since extreme values may highlight inefficiencies or unusual cases worth analyzing.  
 ## Descriptive Analysis
 ## Import Volume and Value
+- Total Import Value (FOB & CIF): Imports amount to trillions of naira, with CIF values consistently higher than FOB, reflecting significant freight and insurance costs paid abroad.
+
+- Average Import Value per Transaction: Typical shipment values are in the tens of millions of naira, indicating large-scale, bulk imports rather than small consignments.
+
+- Top Importing Countries by Value: Imports are highly concentrated among a handful of source countries (China, Lebanon, Italy, UK, India, etc.), which points to strong trade ties but also to supply-chain vulnerability.
+
+- Top Importers by Volume: A small number of importers dominate physical volume, underscoring the influence of major corporate players in Nigeria’s trade landscape.
+
+- Average Import Mass per Transaction: Average shipment weights in the tens of thousands of kilograms (17,485.63) further confirm the predominance of bulk, industrial-scale imports.
+
 ## Taxation and Revenue
+- Total Tax Collected: Import duties and taxes contribute hundreds of billions of naira to government revenue, 1,804,111,287,883 according to our data.
+
+- Average Tax per Transaction: Each import transaction generates several million naira on average in tax recording 3,246,355.68 from our data, reflecting the high value of shipments.
+
+- Tax-to-Value Ratio: Around 13 % of CIF value is collected as tax overall, indicating a moderate effective tariff rate.
+
+- Top Tax-Contributing Importers: As with volume, a small set of large importers account for a disproportionate share of tax revenue, which creates both an opportunity for targeted compliance and a risk of revenue concentration.
+
 ## Logistics and Shipment
 ## Compliance and Processing
 * Some offices like HM CARGO and NT registred more share of the total registered imports
