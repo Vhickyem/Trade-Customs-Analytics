@@ -148,8 +148,21 @@ In conclusion, in most cases, importer 11327 imported goods that were more than 
 
 ## Analytical Skills
 ## Recommendations
+**Short-term Recommendation:**
+- **Strengthen value-based tax assessment:** the CIF and FOB values drive revenue. Review tariff structures to ensure value-based taxation is enforced consistently across all custom offices
+- **Standardise compliance monitoring across offices:** Introduce uniform compliance checks to reduce discrepancies in how offices record/import data.
+- **Immediate training for custom staff:**  Educate officers to focus on value declarations instead of weight, ensuring they verify CIF/FOB accurately at the point of entry.
+
+**Long Term Recommendation**
+- **Policy shift towards value-driven tariffs:** Redesign tariff frameworks to anchor taxation firmly on CIF and FOB values.
+- **Investment in advanced risk profiling systems:** Develop AI/ML models that flag suspicious shipments where declared values (CIF/FOB) do not align with market benchmarks. This reduces smuggling and under-invoicing risks.
+- **Encourage International Benchmarking:** Compare CIF/FOB taxation efficiency with global best practices. This can support trade negotiations and regional integration. 
+
+
 
 ## Conclusion
+By strengthening value-based tax assessment and enforcing CIF/FOB valuation rigorously, we will significantly improve revenue precision and close the loopholes in under-invoiced imports. Harmonizing compliance monitoring across all customs offices and providing thorough training to staff will reduce inconsistencies and errors.  these measures will ensure our customs framework remains competitive, fair, and aligned with global trade norms.
+
 
 
 
