@@ -18,7 +18,7 @@ To conduct a comprehensive analysis of customs and trade data in order to uncove
 
 ## Usage
 
-- View the dashboard online: [Live Dashboard](https://your-streamlit-app-url.streamlit.app](https://trade-customs-analytics-cgrrpmvtgo5mjb9ouv9ey2.streamlit.app/ )
+- View the dashboard online: [Live Dashboard](https://trade-customs-analytics-cgrrpmvtgo5mjb9ouv9ey2.streamlit.app/)
 - Or run locally:
   ```bash
   streamlit run dashboard_app.py
